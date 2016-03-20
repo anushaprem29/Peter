@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFf"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rasha.anusha.peter.InfoActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rathod is an app to prank your friends. Follow the below steps to understand it clearly!\n \n1. Think of a question that your friend would want to ask Rathod. Type the answer in the 'Enter your command' box. Wait till the text changes to 'Rathod, answer my question.'"
+        android:id="@+id/textInfo"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic1"
+        android:id="@+id/pic1"
+        android:layout_below="@id/textInfo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Enter the question in the next box and click okay. The answer that you had typed earlier would appear in the answer box."
+        android:id="@+id/textInfo2"
+        android:textAlignment="center"
+        android:layout_below="@id/pic1"
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic2"
+        android:id="@+id/pic2"
+        android:layout_below="@id/textInfo2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Click Ask Again to repeat the process.\nEnjoy Pranking!"
+        android:id="@+id/textInfo3"
+        android:textAlignment="center"
+        android:layout_below="@id/pic2"
+        />
+</RelativeLayout>
